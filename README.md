@@ -1,12 +1,59 @@
-# React + Vite
+# Controle de Investimentos | Front-End (Interface)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Ver Repositório Back-End](https://img.shields.io/badge/Ver-Back--End_API-007ACC?style=for-the-badge)](https://github.com/GuilhermeRenno/Investimento_API)
 
-Currently, two official plugins are available:
+## ❯ Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Esta é a interface de usuário (front-end) da aplicação "Controle de Investimentos". A aplicação consome a API de back-end para proporcionar uma experiência visual e interativa, permitindo ao usuário gerenciar seus ativos financeiros de forma simples e direta.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tecnologias e Conceitos Aplicados
+
+- **React:** Biblioteca para a construção da interface de usuário.
+- **Vite:** Ferramenta de build para um desenvolvimento rápido, com *Hot Module Replacement* (HMR) e otimizando o projeto para produção.
+- **Axios:** Cliente HTTP para realizar a comunicação com a API.
+- **CSS:** Estilização básica para uma interface limpa e funcional.
+
+## ✨ Funcionalidades
+
+- **Listagem de Ativos:** Exibe os investimentos em uma tabela clara e organizada.
+- **Formulário Reativo:** Permite cadastrar e editar investimentos.
+- **Gerenciamento Completo:** Botões para criar, editar e excluir registros com confirmação.
+- **Feedback ao Usuário:** Exibe alertas em caso de erros de validação retornados pela API.
+
+## 🚀 Como Executar
+
+> **⚠️ ATENÇÃO: PRÉ-REQUISITO**
+> Para que esta aplicação funcione corretamente, o servidor **back-end precisa estar em execução**.
+> Você pode encontrar o projeto da API no repositório abaixo:
+> **https://github.com/GuilhermeRenno/Investimento_API**
+
+Siga os passos abaixo para executar a interface localmente.
+
+1.  **Clone este repositório:**
+    ```bash
+    git clone [URL_DO_SEU_REPOSITORIO_FRONT_END]
+    ```
+
+2.  **Acesse a pasta do projeto:**
+    ```bash
+    cd [NOME_DA_PASTA_DO_FRONT_END]
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie a aplicação:**
+    ```bash
+    npm run dev
+    ```
+
+> A aplicação estará disponível em `http://localhost:5173` (ou a porta indicada pelo Vite no terminal).
+
+<hr>
+
+_Desenvolvido por Guilherme Renno._
