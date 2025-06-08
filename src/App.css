@@ -1,0 +1,16 @@
+
+.App {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: var(--cor-container);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.App h1 {
+  text-align: center;
+  color: var(--cor-primaria);
+  margin-bottom: 30px;
+  font-weight: 600;
+}

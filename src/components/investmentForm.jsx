@@ -1,4 +1,5 @@
 import { useState, useEffect, } from "react";
+import './investmentForm.css'; 
 
 function InvestmentForm({onSubmit, onUpdate,onCancel, editingInvestment}) {
 

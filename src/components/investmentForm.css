@@ -1,0 +1,46 @@
+.investment-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--cor-borda);
+}
+.investment-form h2 {
+  width: 100%;
+  font-size: 1.25rem;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+.investment-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px 12px;
+  border: 1px solid var(--cor-borda);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.investment-form input:focus {
+  outline: none;
+  border-color: var(--cor-primaria);
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+.investment-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+.investment-form button[type="submit"] { background-color: var(--cor-primaria); }
+.investment-form button[type="submit"]:hover { background-color: var(--cor-primaria-hover); }
+.investment-form .cancel-btn { background-color: #888; }
+.investment-form .cancel-btn:hover { background-color: #666; }
+
+@media (max-width: 600px) {
+  .investment-form input {
+    min-width: 100%;
+  }
+}
