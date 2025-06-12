@@ -16,6 +16,12 @@ function InvestmentForm({onSubmit, onUpdate,onCancel, editingInvestment}) {
             setTipo(editingInvestment.tipo);
             setValor(editingInvestment.valor.toString());
             setData(editingInvestment.data.split('T')[0]);
+        } else {
+
+        setNome('');
+        setTipo('');
+        setValor('');
+        setData('');     
         }
     },  [editingInvestment, isEditing]);
 
